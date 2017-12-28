@@ -1,0 +1,70 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+    <div class="profile-sidebar">
+        <div class="profile-userpic">
+            <img src="img/escudopnp.png" class="img-responsive" alt="">
+        </div>
+        <div class="profile-usertitle">
+            <div class="profile-usertitle-name">Ciudadano</div>
+            <div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="divider"></div>
+    <ul class="nav menu">
+        <li <c:if test = "${breadcrumb == 'Principal'}"> class="active"</c:if>><a href="ServMenu?action=pagehome"><em class="fa fa-dashboard">&nbsp;</em>Principal</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Antecedentes</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Referencias policiales</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Vehiculos robados</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Personas desaparecidas</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Trata de personas y afines</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Bienes culturales sustraidos</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Pasaportes sustraidos o perdidos </a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Documentos Oficiales sustraidos o perdidos</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Vehículos, naves o aeronaves empleadas en ilícitos penales</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Personas jurídicas utilizadas para la comisión de delitos</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Identidad balística</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Identidad dactilar del delincuente</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Infractores a la Ley General de Transporte y Tránsito terrestre</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Registro de Detenidos</a></li>
+        <li <c:if test = "${breadcrumb == 'Denuncias por Perdida de Armas'}"> class="active"</c:if>><a href="ServMenu?action=denap"<em class="fa  fa-book">&nbsp;</em>Armas perdidas</a></li>
+        <li class="parent "><a data-toggle="collapse" href="#sub-item-1">
+                <em class="fa fa-navicon">&nbsp;</em> Multilevel <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+            </a>
+            <ul class="children collapse" id="sub-item-1">
+                <li><a class="" href="#">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Sub Item 1
+                    </a></li>
+                <li><a class="" href="#">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Sub Item 2
+                    </a></li>
+                <li><a class="" href="#">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Sub Item 3
+                    </a></li>
+            </ul>
+        </li>
+        <li><a href="login.html"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
+    </ul>
+</div><!--/.sidebar-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
