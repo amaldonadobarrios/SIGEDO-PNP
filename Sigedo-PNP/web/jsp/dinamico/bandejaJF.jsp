@@ -1,8 +1,9 @@
 <%-- 
-    Document   : BandejaMP
-    Created on : 27/12/2017, 08:32:29 PM
+    Document   : bandejaJF
+    Created on : 29/12/2017, 08:27:31 PM
     Author     : 31424836
 --%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <ol class="breadcrumb">
@@ -10,13 +11,13 @@
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#Pendiente" role="tab">Pendiente</a>
+                <a class="nav-link active" data-toggle="tab" href="#Pendiente" role="tab">Recibido</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#Recibido" role="tab">Recibido</a>
+                <a class="nav-link" data-toggle="tab" href="#Recibido" role="tab">Asignados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#Enviados" role="tab">Enviados</a>
+                <a class="nav-link" data-toggle="tab" href="#Enviados" role="tab">Validación de Respuesta</a>
             </li>
         </ul>
 

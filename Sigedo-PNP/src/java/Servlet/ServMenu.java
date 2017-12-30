@@ -50,6 +50,15 @@ public class ServMenu extends HttpServlet {
             case "BandejaMP":
                 this.pageBandejaMP(request, response);
                 break;
+            case "RegdocMP":
+                this.pageregdocMP(request, response);
+                break;
+            case "BandJefe":
+                this.pageBandJefe(request, response);
+                break;
+            case "RegordenJF":
+                this.pageRegordenJF(request, response);
+                break;
             default:
                 this.pagelogin(request, response);
                 break;
@@ -145,6 +154,24 @@ public class ServMenu extends HttpServlet {
     private void pageBandejaMP(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("breadcrumb", "Bandeja  de documentos de la Unidad");
         request.setAttribute("body", "bandejaMP");
+        forwar("template.jsp", request, response);
+    }
+
+    private void pageregdocMP(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setAttribute("breadcrumb", "Registrar Documento");
+        request.setAttribute("body", "regdocMP");
+        forwar("template.jsp", request, response);
+    }
+
+    private void pageBandJefe(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setAttribute("breadcrumb", "Bandeja  de documentos de Jefe");
+        request.setAttribute("body", "bandejaJF");
+        forwar("template.jsp", request, response);
+    }
+
+    private void pageRegordenJF(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setAttribute("breadcrumb", "Registrar Orden");
+        request.setAttribute("body", "regordenJF");
         forwar("template.jsp", request, response);
     }
 }

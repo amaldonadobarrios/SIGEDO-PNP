@@ -14,15 +14,21 @@
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Registar Documento">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="ServMenu?action=RegdocMP">
                     <i class="fa fa-fw fa-pencil"></i>
                     <span class="nav-link-text">Registar Documento</span>
                 </a>
             </li>
-             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                <a class="nav-link" href="tables.html">
-                    <i class="fa fa-fw fa-table"></i>
-                    <span class="nav-link-text">Tables</span>
+             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Bandeja de Jefe">
+                <a class="nav-link" href="ServMenu?action=BandJefe">
+                    <i class="fa fa-fw fa-book"></i>
+                    <span class="nav-link-text">Consultar Bandeja de Jefe</span>
+                </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Registar Orden">
+                <a class="nav-link" href="ServMenu?action=RegordenJF">
+                    <i class="fa fa-fw fa-pencil"></i>
+                    <span class="nav-link-text">Registar Orden</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Hoja de Trámite">
