@@ -19,16 +19,46 @@
                     <span class="nav-link-text">Registar Documento</span>
                 </a>
             </li>
-             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Bandeja de Jefe">
+             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bandeja de Jefe">
                 <a class="nav-link" href="ServMenu?action=BandJefe">
                     <i class="fa fa-fw fa-book"></i>
-                    <span class="nav-link-text">Consultar Bandeja de Jefe</span>
+                    <span class="nav-link-text">Bandeja de Jefe</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Registar Orden">
                 <a class="nav-link" href="ServMenu?action=RegordenJF">
                     <i class="fa fa-fw fa-pencil"></i>
                     <span class="nav-link-text">Registar Orden</span>
+                </a>
+            </li>
+             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bandeja de Archivador">
+                <a class="nav-link" href="ServMenu?action=BandArchiv">
+                    <i class="fa fa-fw fa-book"></i>
+                    <span class="nav-link-text">Bandeja de Archivador</span>
+                </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Registar Archivo Nuevo">
+                <a class="nav-link" href="ServMenu?action=RegordenJF">
+                    <i class="fa fa-fw fa-pencil"></i>
+                    <span class="nav-link-text">Registar Archivo Nuevo</span>
+                </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Archivo">
+                <a class="nav-link" href="ServMenu?action=searchHT">
+                    <i class="fa fa-fw fa-search"></i>
+                    <span class="nav-link-text">Consultar Archivo</span>
+                </a>
+            </li>
+             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Archivo">
+                <a class="nav-link" href="ServMenu?action=searchHT">
+                    <i class="fa fa-fw fa-wrench"></i>
+                    <span class="nav-link-text">Administrar Archivador</span>
+                </a>
+            </li>
+             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bandeja de Archivador">
+                <a class="nav-link" href="ServMenu?action=BandArchiv">
+                    <i class="fa fa-fw fa-book"></i>
+                    <span class="nav-link-text">Bandeja de Administrativo</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Consultar Hoja de Trámite">
@@ -40,73 +70,50 @@
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
                 <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
                     <i class="fa fa-fw fa-wrench"></i>
-                    <span class="nav-link-text">Components</span>
+                    <span class="nav-link-text">Administrador</span>
                 </a>
                 <ul class="sidenav-second-level collapse" id="collapseComponents">
                     <li>
-                        <a href="navbar.html">Navbar</a>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-user-plus"></i>
+                    <span class="nav-link-text">Registrar usuario</span></a>
                     </li>
-                    <li>
-                        <a href="cards.html">Cards</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
-                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
-                    <i class="fa fa-fw fa-file"></i>
-                    <span class="nav-link-text">Example Pages</span>
-                </a>
-                <ul class="sidenav-second-level collapse" id="collapseExamplePages">
-                    <li>
-                        <a href="login.html">Login Page</a>
-                    </li>
-                    <li>
-                        <a href="register.html">Registration Page</a>
-                    </li>
-                    <li>
-                        <a href="forgot-password.html">Forgot Password Page</a>
-                    </li>
-                    <li>
-                        <a href="blank.html">Blank Page</a>
+                   <li>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-user-o"></i>
+                    <span class="nav-link-text">Modificar usuario</span></a>
                     </li>
                 </ul>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
-                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
-                    <i class="fa fa-fw fa-sitemap"></i>
-                    <span class="nav-link-text">Menu Levels</span>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents1" data-parent="#exampleAccordion">
+                    <i class="fa fa-fw fa-wrench"></i>
+                    <span class="nav-link-text">Super Administrador</span>
                 </a>
-                <ul class="sidenav-second-level collapse" id="collapseMulti">
+                <ul class="sidenav-second-level collapse" id="collapseComponents1">
                     <li>
-                        <a href="#">Second Level Item</a>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-user-plus"></i>
+                    <span class="nav-link-text">Registrar Administradores</span></a>
+                    </li>
+                   <li>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-user-o"></i>
+                    <span class="nav-link-text">Modificar Administradores</span></a>
                     </li>
                     <li>
-                        <a href="#">Second Level Item</a>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-home"></i>
+                    <span class="nav-link-text">Registrar unidades</span></a>
+                    </li>
+                   <li>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-hourglass"></i>
+                    <span class="nav-link-text">Modificar unidades</span></a>
                     </li>
                     <li>
-                        <a href="#">Second Level Item</a>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-desktop"></i>
+                    <span class="nav-link-text">Registrar Oficina</span></a>
                     </li>
-                    <li>
-                        <a class="nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti2">Third Level</a>
-                        <ul class="sidenav-third-level collapse" id="collapseMulti2">
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                        </ul>
+                   <li>
+                        <a href="navbar.html"> <i class="fa fa-fw fa-desktop"></i>
+                    <span class="nav-link-text">Modificar Oficina</span></a>
                     </li>
                 </ul>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-                <a class="nav-link" href="#">
-                    <i class="fa fa-fw fa-link"></i>
-                    <span class="nav-link-text">Link</span>
-                </a>
             </li>
         </ul>
         <ul class="navbar-nav sidenav-toggler">

@@ -59,6 +59,9 @@ public class ServMenu extends HttpServlet {
             case "RegordenJF":
                 this.pageRegordenJF(request, response);
                 break;
+            case "BandArchiv":
+                this.pageBandArchiv(request, response);
+                break;
             default:
                 this.pagelogin(request, response);
                 break;
@@ -172,6 +175,12 @@ public class ServMenu extends HttpServlet {
     private void pageRegordenJF(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("breadcrumb", "Registrar Orden");
         request.setAttribute("body", "regordenJF");
+        forwar("template.jsp", request, response);
+    }
+
+    private void pageBandArchiv(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+       request.setAttribute("breadcrumb", "Bandeja de Archivador");
+        request.setAttribute("body", "bandejaARCH");
         forwar("template.jsp", request, response);
     }
 }
